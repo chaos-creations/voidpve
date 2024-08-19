@@ -1388,7 +1388,7 @@
 "YV" = (/obj/structure/machinery/door/airlock/almayer/medical{dir = 8; name = "\improper Chemistry Subsection"; req_one_access = list(); req_one_access_txt = "8;12"},/obj/effect/decal/warning_stripes{icon_state = "SE-out"; pixel_x = 1},/obj/structure/pipes/standard/simple/hidden/supply{dir = 8},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/almayer{icon_state = "dark_sterile"},/area/golden_arrow/medical)
 "YW" = (/obj/effect/decal/cleanable/dirt,/obj/structure/pipes/vents/pump{dir = 1},/turf/open/floor/almayer,/area/golden_arrow/prep_hallway)
 "YY" = (/turf/closed/wall/almayer,/area/golden_arrow/briefing)
-"YZ" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/almayer,/area/golden_arrow/shared_office)
+"YZ" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/cm_vending/gear/kits_vendor{pixel_x = 32; density = 0},/turf/open/floor/almayer,/area/golden_arrow/shared_office)
 "Zc" = (/obj/structure/bed/bedroll{layer = 3.1; pixel_x = 3; pixel_y = -8},/obj/item/clothing/head/cmcap{layer = 4.2; pixel_x = 4; pixel_y = 6},/turf/closed/wall/almayer/outer,/area/golden_arrow/hangar)
 "Zd" = (/obj/structure/surface/table/almayer,/obj/item/prop/almayer/chaff_launcher{pixel_x = 3; pixel_y = 9},/obj/item/prop/almayer/flare_launcher{pixel_x = 5; pixel_y = 19},/obj/item/prop/almayer/handheld1{pixel_x = 6; pixel_y = -8},/turf/open/floor/plating/plating_catwalk,/area/golden_arrow/engineering)
 "Ze" = (/obj/structure/pipes/standard/manifold/hidden/supply{dir = 1},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/almayer,/area/golden_arrow/cryo_cells)

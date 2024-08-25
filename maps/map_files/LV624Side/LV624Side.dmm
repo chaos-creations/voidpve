@@ -5690,9 +5690,7 @@
 	dir = 4
 	},
 /obj/structure/machinery/power/apc{
-	dir = 4;
-	start_charge = 10;
-	autoname = 0
+	dir = 4
 	},
 /turf/open/floor/prison{
 	dir = 10;
@@ -7874,9 +7872,7 @@
 /area/lv624side/clf)
 "To" = (
 /obj/structure/machinery/power/apc{
-	dir = 4;
-	start_charge = 100;
-	autoname = 0
+	dir = 4
 	},
 /turf/open/floor{
 	dir = 5;

@@ -7,6 +7,13 @@
 //ambience = list('sound/ambience/jungle_amb1.ogg')
 	minimap_color = MINIMAP_AREA_JUNGLE
 
+/area/lv624side/outdoors
+	name = "LV624 - River"
+	icon_state = "blue"
+	ceiling = CEILING_NONE
+//ambience = list('sound/ambience/jungle_amb1.ogg')
+	minimap_color = MINIMAP_WATER
+
 /area/lv624side/lz1
 	name = "Landing Zone One"
 	icon_state = "grey"

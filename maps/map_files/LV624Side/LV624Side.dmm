@@ -689,7 +689,7 @@
 /obj/structure/flora/jungle/planttop1,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/dirt,
-/area/space)
+/area/lv624side/river)
 "er" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -708,11 +708,11 @@
 /area/lv624side/outdoors)
 "eu" = (
 /turf/open/gm/dirt,
-/area/space)
+/area/lv624side/river)
 "ew" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/dirtgrassborder/grassdirt_corner2/south_west,
-/area/space)
+/area/lv624side/river)
 "eA" = (
 /obj/item/tool/crowbar/red,
 /obj/effect/decal/cleanable/dirt,
@@ -990,7 +990,7 @@
 	name = "deep ocean";
 	default_name = "deep ocean"
 	},
-/area/space)
+/area/lv624side/river)
 "gn" = (
 /turf/open/gm/coast/beachcorner/south_west,
 /area/lv624side/outdoors)
@@ -1072,7 +1072,7 @@
 	name = "shallow ocean";
 	default_name = "shallow ocean"
 	},
-/area/space)
+/area/lv624side/river)
 "he" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 9
@@ -1431,7 +1431,7 @@
 	name = "shallow ocean";
 	default_name = "shallow ocean"
 	},
-/area/space)
+/area/lv624side/river)
 "iZ" = (
 /obj/structure/bed/chair,
 /turf/open/floor/prison{
@@ -1502,7 +1502,7 @@
 /area/lv624side/wylab)
 "jl" = (
 /turf/open/gm/coast/beachcorner2/south_east,
-/area/space)
+/area/lv624side/river)
 "jn" = (
 /obj/structure/flora/jungle/planttop1,
 /turf/open/gm/grass/grass1,
@@ -1748,7 +1748,7 @@
 "kB" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/beachcorner/south_east,
-/area/space)
+/area/lv624side/river)
 "kD" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
 /turf/open/gm/coast/beachcorner/north_west,
@@ -1868,7 +1868,7 @@
 "lr" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/beachcorner2/south_east,
-/area/space)
+/area/lv624side/river)
 "ls" = (
 /obj/effect/alien/resin/special/pylon/core,
 /turf/open/mars_cave{
@@ -2561,7 +2561,7 @@
 /area/lv624side/mineup)
 "pn" = (
 /turf/open/gm/coast/east,
-/area/space)
+/area/lv624side/river)
 "pp" = (
 /turf/closed/wall/mineral/sandstone/runed/decor,
 /area/lv624side/temple)
@@ -2724,7 +2724,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/beachcorner/south_east,
-/area/space)
+/area/lv624side/river)
 "qi" = (
 /obj/structure/window/reinforced,
 /turf/open/floor/corsat{
@@ -2823,7 +2823,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/dirt,
-/area/space)
+/area/lv624side/river)
 "qN" = (
 /obj/effect/alien/weeds/node,
 /turf/open/mars_cave{
@@ -3069,7 +3069,7 @@
 /obj/structure/flora/bush/ausbushes/reedbush,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/south,
-/area/space)
+/area/lv624side/river)
 "sh" = (
 /obj/item/tool/pickaxe{
 	pixel_y = 12
@@ -3214,7 +3214,7 @@
 /obj/structure/flora/bush/ausbushes/reedbush,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/beachcorner2/south_east,
-/area/space)
+/area/lv624side/river)
 "sQ" = (
 /obj/structure/platform_decoration/kutjevo{
 	dir = 8
@@ -3243,7 +3243,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/west,
-/area/space)
+/area/lv624side/river)
 "th" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
 /turf/open/gm/grass/grass2,
@@ -3385,7 +3385,7 @@
 /area/lv624side/wylab)
 "tS" = (
 /turf/closed/wall/strata_ice/jungle,
-/area/space)
+/area/lv624side/river)
 "tT" = (
 /obj/structure/flora/jungle/vines/heavy{
 	pixel_x = -28
@@ -3499,7 +3499,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/south,
-/area/space)
+/area/lv624side/river)
 "uA" = (
 /turf/open/asphalt/cement_sunbleached{
 	icon_state = "cement_sunbleached1"
@@ -3635,7 +3635,7 @@
 	name = "shallow ocean";
 	default_name = "shallow ocean"
 	},
-/area/space)
+/area/lv624side/river)
 "vc" = (
 /obj/structure/surface/table,
 /obj/item/stock_parts/scanning_module/phasic{
@@ -4801,12 +4801,12 @@
 	name = "deep ocean";
 	default_name = "deep ocean"
 	},
-/area/space)
+/area/lv624side/river)
 "By" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/dirt,
-/area/space)
+/area/lv624side/river)
 "Bz" = (
 /obj/structure/prop/almayer/missile_tube{
 	desc = "A detached drill arm of a big old Seegson D-602 Mining Robot. Seems to be jury rigged to run without the main robot assembly.";
@@ -4875,7 +4875,7 @@
 "BU" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/beachcorner/south_west,
-/area/space)
+/area/lv624side/river)
 "BW" = (
 /obj/item/stack/rods,
 /obj/structure/girder,
@@ -4957,7 +4957,7 @@
 "CL" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/beachcorner2/south_west,
-/area/space)
+/area/lv624side/river)
 "CM" = (
 /obj/structure/prop/almayer/computers/sensor_computer1,
 /obj/structure/machinery/light/double{
@@ -5077,7 +5077,7 @@
 /obj/structure/blocker/invisible_wall/water,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/dirtgrassborder/south,
-/area/space)
+/area/lv624side/river)
 "DK" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
@@ -5191,7 +5191,7 @@
 "Es" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
 /turf/closed/wall/strata_ice/jungle,
-/area/space)
+/area/lv624side/river)
 "Et" = (
 /obj/structure/machinery/optable,
 /obj/item/tank/anesthetic{
@@ -5219,7 +5219,7 @@
 /obj/structure/blocker/invisible_wall/water,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/beachcorner2/south_east,
-/area/space)
+/area/lv624side/river)
 "EC" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 8
@@ -5318,7 +5318,7 @@
 /obj/structure/flora/bush/ausbushes/reedbush,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/river,
-/area/space)
+/area/lv624side/river)
 "Fm" = (
 /obj/item/tool/warning_cone{
 	pixel_x = 5;
@@ -5651,7 +5651,7 @@
 "GY" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/south,
-/area/space)
+/area/lv624side/river)
 "Ha" = (
 /obj/structure/largecrate/black_market/clf_supplies,
 /turf/open/gm/grass/grass1,
@@ -5724,7 +5724,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/beachcorner/south_west,
-/area/space)
+/area/lv624side/river)
 "Hz" = (
 /obj/structure/prop/turbine{
 	layer = 6
@@ -5828,7 +5828,7 @@
 /area/lv624side/hiveup)
 "Ij" = (
 /turf/open/gm/coast/beachcorner/south_east,
-/area/space)
+/area/lv624side/river)
 "Il" = (
 /obj/structure/window/framed/colony/reinforced,
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
@@ -5967,7 +5967,7 @@
 "IT" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/river,
-/area/space)
+/area/lv624side/river)
 "IU" = (
 /obj/structure/flora/jungle/plantbot1,
 /turf/open/gm/grass/grass1,
@@ -6620,7 +6620,7 @@
 	name = "shallow ocean";
 	default_name = "shallow ocean"
 	},
-/area/space)
+/area/lv624side/river)
 "Mk" = (
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624side/outdoors)
@@ -6705,7 +6705,7 @@
 "MJ" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/dirtgrassborder/south,
-/area/space)
+/area/lv624side/river)
 "MK" = (
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/corsat{
@@ -6716,7 +6716,7 @@
 "MN" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/dirtgrassborder/grassdirt_corner2/south_east,
-/area/space)
+/area/lv624side/river)
 "MO" = (
 /turf/open/floor/corsat{
 	icon_state = "whitetan"
@@ -6904,7 +6904,7 @@
 "NO" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/west,
-/area/space)
+/area/lv624side/river)
 "NP" = (
 /turf/open/gm/dirtgrassborder/grassdirt_corner/north_east,
 /area/lv624side/outdoors)
@@ -7138,7 +7138,7 @@
 /turf/open/gm/dirt{
 	icon_state = "desert0"
 	},
-/area/space)
+/area/lv624side/river)
 "OR" = (
 /obj/item/weapon/gun/rifle/mar40/lmg{
 	pixel_x = 1;
@@ -7395,7 +7395,7 @@
 /area/lv624side/clf)
 "QG" = (
 /turf/open/gm/coast/south,
-/area/space)
+/area/lv624side/river)
 "QH" = (
 /turf/open/asphalt/cement_sunbleached,
 /area/lv624side/outdoors)
@@ -8444,7 +8444,7 @@
 "WF" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/dirt,
-/area/space)
+/area/lv624side/river)
 "WI" = (
 /turf/open/space/basic,
 /area/space)
@@ -8544,7 +8544,7 @@
 /obj/structure/flora/bush/ausbushes/reedbush,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/beachcorner/south_west,
-/area/space)
+/area/lv624side/river)
 "Xw" = (
 /obj/structure/bed,
 /turf/open/floor/interior/plastic,
@@ -8598,7 +8598,7 @@
 /area/lv624side/clf)
 "XP" = (
 /turf/open/gm/coast/beachcorner2/south_west,
-/area/space)
+/area/lv624side/river)
 "XS" = (
 /obj/structure/surface/rack,
 /turf/open/shuttle/dropship{
@@ -8682,7 +8682,7 @@
 "Ys" = (
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/east,
-/area/space)
+/area/lv624side/river)
 "Yw" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 8
@@ -8852,7 +8852,7 @@
 /area/lv624side/outdoors)
 "ZC" = (
 /turf/open/gm/coast/beachcorner/south_west,
-/area/space)
+/area/lv624side/river)
 "ZG" = (
 /obj/structure/machinery/landinglight/ds1,
 /turf/open/floor/plating,
@@ -8934,7 +8934,7 @@
 /obj/structure/blocker/invisible_wall/water,
 /obj/structure/blocker/invisible_wall/water,
 /turf/open/gm/coast/beachcorner2/south_west,
-/area/space)
+/area/lv624side/river)
 "ZX" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/structure/flora/jungle/vines/light_1,

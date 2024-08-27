@@ -339,8 +339,8 @@
 
 /datum/equipment_preset/uscm/bionational
 	name = "Lasalle Bionational Spec-Ops" //Parent type for easier gear
-	assignment = JOB_SQUAD_MARINE
-	rank = JOB_SQUAD_MARINE
+	assignment = "Agent"
+	rank = "Agent"
 	role_comm_title = "LBC"
 	flags = EQUIPMENT_PRESET_EXTRA
 	auto_squad_name = SQUAD_CBRN
@@ -387,8 +387,8 @@
 /datum/equipment_preset/uscm/bionational/engineer
 	name = "Lasalle Bionational Spec-Ops (Decker)"
 	paygrade = "ME4"
-	assignment = JOB_SQUAD_ENGI
-	rank = JOB_SQUAD_ENGI
+	assignment = "Decker"
+	rank = "Decker"
 	role_comm_title = "DECK"
 	minimap_icon = "engi"
 	skills = /datum/skills/pmc/engineer
@@ -415,8 +415,8 @@
 /datum/equipment_preset/uscm/bionational/medic
 	name = "Lasalle Bionational Spec-Ops (Corpsman)"
 	paygrade = "ME4"
-	assignment = JOB_SQUAD_MEDIC
-	rank = JOB_SQUAD_MEDIC
+	assignment = "Corpsman"
+	rank = "Corpsman"
 	role_comm_title = "Corps"
 	minimap_icon = "medic"
 	skills = /datum/skills/pmc/medic
@@ -453,8 +453,8 @@
 /datum/equipment_preset/uscm/bionational/leader
 	name = "Lasalle Bionational Spec-Ops (Operator)"
 	paygrade = "ME5"
-	assignment = JOB_SQUAD_TEAM_LEADER
-	rank = JOB_SQUAD_TEAM_LEADER
+	assignment = "Operator"
+	rank = "Operator"
 	role_comm_title = "OP"
 	minimap_icon = "tl"
 	skills = /datum/skills/pmc/SL
@@ -501,14 +501,13 @@
 /datum/equipment_preset/uscm/bionational/specialist
 	name = "Lasalle Bionational Spec-Ops (Liquidator)"
 	paygrade = "O"
-	assignment = JOB_SQUAD_SPECIALIST
-	rank = JOB_SQUAD_SPECIALIST
+	assignment = "Liquidator"
+	rank = "Liquidator"
 	role_comm_title = "LQ"
 	minimap_icon = "spec"
 	skills = /datum/skills/commando/deathsquad
 
 /datum/equipment_preset/uscm/bionational/specialist/load_gear(mob/living/carbon/human/new_human)
-	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/marine/satchel/intel/upgraded(new_human), WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/cbrn(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/bionational(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/veteran/bionational(new_human), WEAR_JACKET)

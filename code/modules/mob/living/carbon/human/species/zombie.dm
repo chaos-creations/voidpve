@@ -67,6 +67,8 @@
 	var/datum/mob_hud/Hu = huds[MOB_HUD_MEDICAL_OBSERVER]
 	Hu.add_hud_to(zombie, zombie)
 
+	GLOB.zombie_list += zombie
+
 	return ..()
 
 
@@ -75,6 +77,7 @@
 	remove_from_revive(zombie)
 	var/datum/mob_hud/Hu = huds[MOB_HUD_MEDICAL_OBSERVER]
 	Hu.remove_hud_from(zombie, zombie)
+	GLOB.zombie_list -= zombie
 
 
 /datum/species/zombie/handle_unique_behavior(mob/living/carbon/human/zombie)
@@ -88,6 +91,7 @@
 
 	if(gibbed)
 		remove_from_revive(zombie)
+		GLOB.zombie_list -= zombie
 		return
 
 	if(zombie)
@@ -159,3 +163,4 @@
 		if(receiving_client)
 			receiving_client.mob.play_screen_text("<span class='langchat' style=font-size:16pt;text-align:center valign='top'><u>Beheaded...</u></span><br>Your corpse will no longer rise.", /atom/movable/screen/text/screen_text/command_order, rgb(155, 0, 200))
 			to_chat(receiving_client, SPAN_BOLDNOTICE(FONT_SIZE_LARGE("You've been beheaded! Your body will no longer rise.")))
+		GLOB.zombie_list -= zombie

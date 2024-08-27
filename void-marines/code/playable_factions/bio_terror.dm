@@ -410,6 +410,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/marine/rmc/rmc_f90_ammo/pve(new_human), WEAR_WAIST)
 	new_human.equip_to_slot_or_del(new /obj/item/device/reagent_scanner(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/prop/geiger_counter(new_human), WEAR_IN_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/device/black_market_hacking_device(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/reagent_container/spray/cleaner(new_human), WEAR_IN_BACK)
 
 /datum/equipment_preset/uscm/bionational/medic

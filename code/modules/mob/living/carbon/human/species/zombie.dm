@@ -113,6 +113,7 @@
 /datum/species/zombie/handle_dead_death(mob/living/carbon/human/zombie, gibbed)
 	if(gibbed)
 		remove_from_revive(zombie)
+		GLOB.zombie_list -= zombie
 
 /datum/species/zombie/proc/revive_from_death(mob/living/carbon/human/zombie)
 	if(zombie && zombie.loc && zombie.stat == DEAD)

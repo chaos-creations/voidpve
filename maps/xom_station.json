@@ -1,0 +1,44 @@
+{
+    "map_name": "Xom Station",
+    "map_path": "map_files/xom_station",
+    "map_file": "xom.dmm",
+    "webmap_url": "Fiorina",
+    "survivor_types": [
+        "/datum/equipment_preset/survivor/scientist/florina",
+        "/datum/equipment_preset/survivor/doctor/florina",
+        "/datum/equipment_preset/survivor/interstellar_human_rights_observer",
+        "/datum/equipment_preset/survivor/security/florina",
+        "/datum/equipment_preset/survivor/colonial_marshal/florina",
+        "/datum/equipment_preset/survivor/prisoner",
+        "/datum/equipment_preset/survivor/prisoner",
+        "/datum/equipment_preset/survivor/gangleader",
+        "/datum/equipment_preset/survivor/engineer/florina",
+        "/datum/equipment_preset/survivor/clf",
+        "/datum/equipment_preset/survivor/civilian"
+    ],
+    "defcon_triggers": [
+        3750,
+        2600,
+        1450,
+        875,
+        0.0
+    ],
+    "survivor_message": ":^)",
+    "map_item_type": "/obj/item/map/FOP_map_v3",
+    "announce_text": "[INCOMING TRANSMISSION] We-wel-kzzzz Welcome to Xo-... [SIGNAL LOST]",
+    "traits": [{ "Ground": true }],
+    "nightmare_path": "maps/Nightmare/maps/xom_station/",
+    "xvx_hives": {
+        "xeno_hive_alpha": 0,
+        "xeno_hive_bravo": 0,
+        "xeno_hive_charlie": 0
+    },
+    "camouflage": "snow",
+    "gamemodes": [
+        "Distress Signal",
+        "Hunter Games",
+        "Hive Wars",
+        "Faction Clash",
+        "Infection"
+    ]
+}

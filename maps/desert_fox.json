@@ -1,0 +1,45 @@
+{
+    "map_name": "Khami Barrens",
+    "map_path": "map_files/Desert_Fox",
+    "map_file": "Desert_Fox.dmm",
+    "webmap_url": "Solaris",
+    "weather_holder": "/datum/weather_ss_map_holder/big_red",
+    "survivor_types": [
+        "/datum/equipment_preset/survivor/doctor/kutjevo",
+        "/datum/equipment_preset/survivor/chaplain/kutjevo",
+        "/datum/equipment_preset/survivor/engineer/kutjevo",
+        "/datum/equipment_preset/survivor/colonial_marshal/kutjevo",
+        "/datum/equipment_preset/survivor/trucker/kutjevo",
+        "/datum/equipment_preset/survivor/security/kutjevo",
+        "/datum/equipment_preset/survivor/clf",
+        "/datum/equipment_preset/survivor/civilian"
+    ],
+    "defcon_triggers": [
+        4750,
+        3500,
+        2000,
+        1000,
+        0.0
+    ],
+    "map_item_type": "/obj/item/map/kutjevo_map",
+    "announce_text": "An automated distress signal has been received from Weyland-Yutani colony Khami Barrens. The ###SHIPNAME### has been dispatched to investigate.",
+    "monkey_types": [
+        "neaera"
+    ],
+    "traits": [{ "Ground": true }],
+    "nightmare_path": "maps/Nightmare/maps/Kutjevo/",
+    "xvx_hives": {
+        "xeno_hive_alpha": 0,
+        "xeno_hive_bravo": 0,
+        "xeno_hive_charlie": 0,
+        "xeno_hive_delta": 100
+    },
+    "camouflage": "desert",
+    "gamemodes": [
+        "Distress Signal",
+        "Hunter Games",
+        "Hive Wars",
+        "Faction Clash",
+        "Infection"
+    ]
+}

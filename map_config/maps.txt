@@ -96,3 +96,6 @@ endmap
 
 map dock_red
 endmap
+
+map khami_barrens
+endmap

@@ -94,8 +94,5 @@ endmap
 map whiskey_outpost_ru
 endmap
 
-map khami_barrens
-endmap
-
-map dockred
+map dock_red
 endmap

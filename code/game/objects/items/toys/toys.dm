@@ -655,3 +655,23 @@
 
 /obj/item/toy/plush/shark/alt
 	icon_state = "shark_alt"
+
+/obj/item/toy/plush/baba // funky
+	name = "baba plush"
+	desc = "A strange toy in the form of some four-legged creature. Upon closer inspection, your head begins to ache strangely."
+	icon_state = "BABA"
+
+/obj/item/toy/plush/text1
+	name = "plush letters"
+	desc = "Part of something terrible."
+	icon_state = "BABA_TEXT"
+
+/obj/item/toy/plush/text2
+	name = "plush letters"
+	desc = "Part of something terrible."
+	icon_state = "IS"
+
+/obj/item/toy/plush/text3
+	name = "plush letters"
+	desc = "Part of something terrible."
+	icon_state = "YOU"

@@ -1,0 +1,359 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp5"
+	},
+/area/shuttle/orion)
+"b" = (
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin4"
+	},
+/area/shuttle/orion)
+"d" = (
+/obj/structure/largecrate/supply/ammo/type71,
+/obj/structure/largecrate/supply/ammo/type71{
+	pixel_x = 3;
+	pixel_y = 8
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"e" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	frequency = 1469;
+	name = "General Listening Channel";
+	pixel_y = 26;
+	pixel_x = -4
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin6"
+	},
+/area/shuttle/orion)
+"f" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/machinery/computer/shuttle/dropship/flight/remote_control/orion{
+	icon_state = "syndishuttle"
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"g" = (
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"i" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp8"
+	},
+/area/shuttle/orion)
+"k" = (
+/turf/closed/shuttle/ert{
+	icon_state = "leftengine_3";
+	opacity = 0
+	},
+/area/shuttle/orion)
+"m" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp22"
+	},
+/area/shuttle/orion)
+"o" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp3"
+	},
+/area/shuttle/orion)
+"p" = (
+/turf/closed/shuttle/ert{
+	icon_state = "leftengine_1";
+	opacity = 0
+	},
+/area/shuttle/orion)
+"q" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp4"
+	},
+/area/shuttle/orion)
+"r" = (
+/obj/structure/surface/rack,
+/obj/item/defenses/handheld/sentry/upp,
+/obj/item/ammo_magazine/sentry/upp,
+/obj/item/ammo_magazine/sentry/upp,
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"s" = (
+/turf/open/shuttle/dropship{
+	icon_state = "floor8"
+	},
+/area/shuttle/orion)
+"t" = (
+/obj/structure/bed/chair/vehicle{
+	dir = 4;
+	pixel_x = -9
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"x" = (
+/obj/structure/surface/rack,
+/obj/item/storage/belt/medical/lifesaver/upp/full,
+/obj/item/storage/firstaid/regular,
+/obj/item/device/healthanalyzer,
+/obj/docking_port/mobile/marine_dropship/orion{
+	layer = 5
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"y" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp23"
+	},
+/area/shuttle/orion)
+"z" = (
+/turf/closed/shuttle/ert{
+	icon_state = "rightengine_2";
+	opacity = 0
+	},
+/area/shuttle/orion)
+"A" = (
+/obj/structure/gun_rack/type71/unloaded,
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"B" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony{
+	dir = 1;
+	color = "#739887"
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	color = "#739887";
+	id = "orion";
+	needs_power = 0
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"C" = (
+/turf/template_noop,
+/area/template_noop)
+"D" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp9"
+	},
+/area/shuttle/orion)
+"E" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp2"
+	},
+/area/shuttle/orion)
+"F" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp25"
+	},
+/area/shuttle/orion)
+"H" = (
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin3"
+	},
+/area/shuttle/orion)
+"I" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/prop/almayer/CICmap/upp{
+	color = "#739887"
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"J" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp20"
+	},
+/area/shuttle/orion)
+"M" = (
+/turf/closed/shuttle/ert{
+	icon_state = "leftengine_2";
+	opacity = 0
+	},
+/area/shuttle/orion)
+"N" = (
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin8"
+	},
+/area/shuttle/orion)
+"O" = (
+/obj/structure/machinery/door_control{
+	pixel_y = -19;
+	id = "orion";
+	needs_power = 0;
+	name = "Lockdown"
+	},
+/obj/structure/bed/chair/vehicle{
+	dir = 1
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin3"
+	},
+/area/shuttle/orion)
+"P" = (
+/turf/closed/shuttle/ert{
+	icon_state = "rightengine_1";
+	opacity = 0
+	},
+/area/shuttle/orion)
+"Q" = (
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
+	pixel_y = 26;
+	pixel_x = 4
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin7"
+	},
+/area/shuttle/orion)
+"R" = (
+/obj/structure/bed/chair/vehicle{
+	dir = 1;
+	pixel_y = 3
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"S" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp1"
+	},
+/area/shuttle/orion)
+"T" = (
+/obj/structure/bed/chair/vehicle{
+	pixel_x = 9;
+	dir = 8
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/orion)
+"U" = (
+/turf/closed/shuttle/dropship1/transparent{
+	name = "wall";
+	icon = 'icons/turf/ert_shuttle.dmi';
+	icon_state = "upp27"
+	},
+/area/shuttle/orion)
+"V" = (
+/turf/closed/shuttle/ert{
+	icon_state = "rightengine_3";
+	opacity = 0
+	},
+/area/shuttle/orion)
+"Y" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp_rightengine"
+	},
+/area/shuttle/orion)
+"Z" = (
+/turf/closed/shuttle/ert{
+	icon_state = "upp_leftengine"
+	},
+/area/shuttle/orion)
+
+(1,1,1) = {"
+C
+C
+J
+Z
+k
+M
+p
+C
+"}
+(2,1,1) = {"
+C
+J
+m
+i
+q
+q
+S
+C
+"}
+(3,1,1) = {"
+C
+U
+I
+R
+t
+t
+i
+S
+"}
+(4,1,1) = {"
+J
+m
+e
+H
+H
+b
+g
+B
+"}
+(5,1,1) = {"
+U
+f
+s
+r
+x
+s
+O
+E
+"}
+(6,1,1) = {"
+F
+y
+Q
+H
+H
+N
+g
+B
+"}
+(7,1,1) = {"
+C
+U
+d
+A
+T
+T
+D
+o
+"}
+(8,1,1) = {"
+C
+F
+y
+D
+a
+a
+o
+C
+"}
+(9,1,1) = {"
+C
+C
+F
+Y
+V
+z
+P
+C
+"}

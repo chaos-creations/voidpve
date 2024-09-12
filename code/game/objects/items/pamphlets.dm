@@ -221,3 +221,20 @@
 	desc = "A pamphlet used to quickly impart vital knowledge of how to shoot big guns and spot for them."
 	icon_state = "pamphlet_vulture"
 	trait_to_give = TRAIT_VULTURE_USER
+
+/obj/item/pamphlet/skill/tankist
+	name = "Vehicle Crewman instructional gaming device"
+	desc = "A gaming device that contains a training program for controlling and firing a tank. It has a modern program 'Bonk Trander' which completely creates a tank simulation that conveys 99% realism. Boosts the engineering and vehicle operation skills to 2. Crewmember received full vehicle crewman training."
+	icon = 'icons/obj/items/items.dmi'
+	icon_state = "game_kit"
+	trait = /datum/character_trait/skills/vc
+	bypass_pamphlet_limit = TRUE
+
+/obj/item/pamphlet/skill/tankist/on_use(mob/living/carbon/human/user)
+	. = ..()
+	user.rank_fallback = "tc"
+	user.hud_set_squad()
+
+	var/obj/item/card/id/ID = user.wear_id
+	ID.set_assignment((user.assigned_squad ? (user.assigned_squad.name + " ") : "") + "Tank Crewman")
+	GLOB.data_core.manifest_modify(user.real_name, WEAKREF(user), "Tank Crewman")

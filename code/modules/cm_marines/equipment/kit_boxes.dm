@@ -543,3 +543,20 @@
 	new /obj/item/storage/pouch/construction/low_grade_full(src)
 	new /obj/item/storage/pouch/electronics/full(src)
 	new /obj/item/clothing/glasses/welding(src)
+
+/obj/item/storage/box/kit/tank_crewman
+	name = "\improper Tank Crewman Kit"
+	pro_case_overlay = "engi"
+
+/obj/item/storage/box/kit/tank_crewman/fill_preset_inventory()
+	new /obj/item/clothing/gloves/yellow(src)
+	new /obj/item/clothing/suit/storage/marine/tanker(src)
+	new /obj/item/clothing/head/helmet/marine/tech/tanker(src)
+	new /obj/item/clothing/under/marine/officer/tanker(src)
+	new /obj/item/device/helmet_visor/medical(src)
+	new /obj/item/tool/weldpack(src)
+	new /obj/item/storage/belt/tank(src)
+	new /obj/item/storage/pouch/tools/tank(src)
+	new /obj/item/clothing/accessory/storage/black_vest/brown_vest(src)
+	new /obj/item/storage/pouch/magazine/large(src)
+	new /obj/item/pamphlet/skill/tankist(src)

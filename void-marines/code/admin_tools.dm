@@ -137,6 +137,7 @@
 		add_verb(src, /client/proc/disallow_to_join)
 		add_verb(src, /client/proc/allow_to_join)
 		add_verb(src, /client/proc/gm_lighting) //RU-PVE
+		add_verb(src, /client/proc/admin_blurb_gm)
 
 /client/remove_admin_verbs()
 	. = ..()
@@ -144,6 +145,7 @@
 		/client/proc/disallow_to_join,
 		/client/proc/allow_to_join,
 		/client/proc/gm_lighting,
+		/client/proc/admin_blurb_gm
 	))
 
 /mob/dead/join_as_freed_mob()
@@ -151,3 +153,23 @@
 		to_chat(usr, SPAN_WARNING("You have BLACKLISTED from entering!"))
 		return
 	. = ..()
+
+/client/proc/admin_blurb_gm()
+	set name = "Global Blurb Message"
+	set category = "Game Master.Extras"
+
+	if(!check_rights())
+		return
+	var/duration = 5 SECONDS
+	var/color = input(src, "Input your message color:", "Color Selector") as color|null
+	if(isnull(color))
+		color = "#bd2020"
+	var/message = "ADMIN TEST"
+	var/text_input = tgui_input_text(usr, "Announcement message", "Message Contents", message, timeout = 5 MINUTES)
+	message = text_input
+	duration = tgui_input_number(usr, "Set the duration of the alert in deci-seconds.", "Duration", 5 SECONDS, 5 MINUTES, 5 SECONDS, 20 SECONDS)
+	var/confirm = tgui_alert(usr, "Are you sure you wish to send '[message]' to all players for [(duration / 10)] seconds?", "Confirm", list("Yes", "No"), 20 SECONDS)
+	if(confirm != "Yes")
+		return FALSE
+	show_blurb(GLOB.player_list, duration, message, TRUE, "center", "center", color, null)
+	message_admins("[key_name(usr)] sent an admin blurb alert to all players. Alert reads: '[message]' and lasts [(duration / 10)] seconds.")

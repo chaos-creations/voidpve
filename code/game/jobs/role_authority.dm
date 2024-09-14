@@ -159,7 +159,7 @@ I hope it's easier to tell what the heck this proc is even doing, unlike previou
 		if(player.client.total_enter_lock)
 			to_chat(player, SPAN_NOTICE("You have BLACKLISTED from entering!"))
 			return
-		if(!enter_allowed)
+		if(!GLOB.enter_allowed)
 			if(!check_rights(, show_msg = FALSE) && player.client.enter_lock_bypass)
 				to_chat(player, SPAN_NOTICE("There is an administrative lock on entering the game!"))
 				return

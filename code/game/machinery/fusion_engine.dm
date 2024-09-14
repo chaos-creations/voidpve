@@ -13,7 +13,6 @@
 	icon_state = "off"
 	desc = "A Westingland S-52 Fusion Reactor."
 	directwired = FALSE  //Requires a cable directly underneath
-	is_on = FALSE
 	unslashable = TRUE
 	unacidable = TRUE
 	anchored = TRUE

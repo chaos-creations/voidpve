@@ -91,8 +91,6 @@ Class Procs:
 //  IDLE -- machine is using power at its idle power level
 //  ACTIVE -- machine is using power at its active power level
 
-GLOBAL_LIST_EMPTY(machines)
-
 /obj/structure/machinery
 	name = "machinery"
 	icon = 'icons/obj/structures/props/stationobjs.dmi'
@@ -385,7 +383,7 @@ GLOBAL_LIST_EMPTY(machines)
 	unslashable = TRUE
 	unacidable = TRUE
 	wrenchable = FALSE
-	
+
 /obj/structure/machinery/fuelpump/ex_act(severity)
 	return
 

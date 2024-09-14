@@ -324,7 +324,7 @@ GLOBAL_LIST_INIT(cm_vending_clothing_pmc_medic, list(
 	handheld_type = /obj/item/defenses/handheld/sentry/wy
 	ammo = new /obj/item/ammo_magazine/sentry/wy
 	choice_categories = list(
-		SENTRY_CATEGORY_IFF = list(FACTION_PMC, FACTION_HUMAN),
+		SENTRY_CATEGORY_IFF = list(FACTION_PMC, FACTION_LIST_HUMANOID),
 	)
 	selected_categories = list(
 		SENTRY_CATEGORY_IFF = FACTION_PMC,

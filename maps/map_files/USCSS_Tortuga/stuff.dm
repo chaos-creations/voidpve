@@ -190,10 +190,12 @@ GLOBAL_LIST_INIT(cm_vending_clothing_pmc_medic, list(
 	accuracy_var_low = PROJECTILE_VARIANCE_TIER_2
 	accuracy_var_high = PROJECTILE_VARIANCE_TIER_2
 
+/*
 /datum/ammo/flamethrower/pve/drop_flame(turf/T, datum/cause_data/cause_data)
 	if(!istype(T)) return
 	var/datum/reagent/R = new flamer_reagent_type()
 	new /obj/flamer_fire(T, cause_data, R, 1)
+*/
 
 /datum/ammo/rocket/wp/quad/weak
 	name = "thermobaric rocket"
@@ -361,8 +363,8 @@ GLOBAL_LIST_INIT(cm_vending_clothing_pmc_medic, list(
 	current_mag.reagents.remove_reagent(flamer_reagent.id, FLAME_REAGENT_USE_AMOUNT * fuel_usage)
 
 	var/obj/projectile/P = new(src, create_cause_data(initial(name), user, src))
-	var/datum/ammo/flamethrower/ammo_datum = new /datum/ammo/flamethrower/pve
-	ammo_datum.flamer_reagent_type = flamer_reagent.type
+	var/datum/ammo/flamethrower/ammo_datum = new /datum/ammo/flamethrower
+//	ammo_datum.flamer_reagent_type = flamer_reagent.type
 	P.generate_bullet(ammo_datum)
 	P.icon_state = "naptha_ball"
 	P.color = flamer_reagent.color

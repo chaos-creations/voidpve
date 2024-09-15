@@ -34,13 +34,13 @@
 
 /datum/equipment_preset/uscm/load_preset(mob/living/carbon/human/new_human, randomise, count_participant)
 	. = ..()
-	if(!auto_squad_name || (is_admin_level(new_human.z) && !ert_squad))
+	if(!auto_squad_name || (should_block_game_interaction(new_human) && !ert_squad))
 		return
 	if(!GLOB.data_core.manifest_modify(new_human.real_name, WEAKREF(new_human), assignment, rank))
 		GLOB.data_core.manifest_inject(new_human)
 
-	var/obj/item/card/id/ID = new_human.wear_id
-	var/datum/money_account/acct = create_account(new_human, rand(30, 50), GLOB.paygrades[ID.paygrades])
+	var/obj/item/card/id/ID = new_human.get_idcard()
+	var/datum/money_account/acct = create_account(new_human, rand(30, 50), GLOB.paygrades[ID.paygrade])
 	ID.associated_account_number = acct.account_number
 
 	var/datum/squad/auto_squad = get_squad_by_name(auto_squad_name)
@@ -80,13 +80,6 @@
 
 	minimap_icon = "private"
 
-/datum/equipment_preset/uscm/pfc/load_gear(mob/living/carbon/human/new_human)
-	var/back_item = /obj/item/storage/backpack/marine/satchel
-	if (new_human.client && new_human.client.prefs && (new_human.client.prefs.backbag == 1))
-		back_item = /obj/item/storage/backpack/marine
-
-	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
-
 /datum/equipment_preset/uscm/pfc/cryo
 	name = "USCM Cryo Squad Rifleman"
 	auto_squad_name = SQUAD_MARINE_CRYO
@@ -114,27 +107,11 @@
 	faction_group = list(FACTION_UPP)
 	faction = FACTION_UPP
 
-/datum/equipment_preset/uscm/pfc/upp/load_gear(mob/living/carbon/human/new_human)
-	var/back_item = /obj/item/storage/backpack/lightpack/upp
-	if (new_human.client && new_human.client.prefs && (new_human.client.prefs.backbag == 1))
-		back_item = /obj/item/storage/backpack/marine
-
-	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
-
 /datum/equipment_preset/uscm/pfc/upp/lesser_rank
 	paygrades = list(PAY_SHORT_UE1 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/pfc/forecon
 	name = "FORECON Squad Rifleman"
-	paygrades = "ME3"
-
-/datum/equipment_preset/uscm/pfc/forecon/load_gear(mob/living/carbon/human/new_human)
-	var/back_item = /obj/item/storage/backpack/marine/satchel/standard
-	if (new_human.client && new_human.client.prefs && (new_human.client.prefs.backbag == 1))
-		back_item = /obj/item/storage/backpack/marine/standard
-
-	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
-
 	paygrades = list(PAY_SHORT_ME3 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/pfc/recon
 

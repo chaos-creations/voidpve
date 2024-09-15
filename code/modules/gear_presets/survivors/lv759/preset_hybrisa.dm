@@ -328,7 +328,7 @@
 	name = "Survivor - Hybrisa - CMB Police Officer"
 	assignment = "CMB Affiliated Officer"
 	role_comm_title = "CMB DEP"
-	paygrade = "GS-9"
+	paygrades = list(PAY_SHORT_CMBD = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/civilian/survivor/marshal
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	idtype = /obj/item/card/id/deputy
@@ -434,7 +434,7 @@
 	name = "Survivor - Hybrisa - Emergency Medical Technician - Paramedic"
 	assignment = "Emergency Medical Technician - Paramedic"
 	role_comm_title = "PARA"
-	paygrade = "CPARA"
+	paygrades = list(PAY_SHORT_CDOC = JOB_PLAYTIME_TIER_0)
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	assignment = "EMT - Paramedic"
 	skills = /datum/skills/civilian/survivor/paramedic
@@ -765,7 +765,7 @@
 	rank = JOB_EXECUTIVE
 	skills = /datum/skills/civilian/survivor
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
-	paygrade = "WYC3"
+	paygrades = list(PAY_SHORT_WYC3  = JOB_PLAYTIME_TIER_0)
 	faction_group = list(FACTION_WY, FACTION_SURVIVOR)
 	idtype = /obj/item/card/id/silver/clearance_badge/cl
 	access = list(ACCESS_CIVILIAN_PUBLIC,ACCESS_CIVILIAN_COMMAND,ACCESS_WY_GENERAL,ACCESS_WY_COLONIAL,ACCESS_WY_EXEC,)
@@ -905,7 +905,7 @@
 	assignment = "Weyland-Yutani - Commercial Pilot"
 	skills = /datum/skills/civilian/survivor/wy_pilot
 	role_comm_title = "WY-PO"
-	paygrade = "WYPO2"
+	paygrades = list(PAY_SHORT_WYC5 = JOB_PLAYTIME_TIER_0)
 	faction_group = list(FACTION_WY, FACTION_SURVIVOR)
 	idtype = /obj/item/card/id/captains_spare
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
@@ -939,7 +939,7 @@
 	name = "Survivor - Hybrisa - KMCC - Miner"
 	assignment = "KMCC - Miner"
 	skills = /datum/skills/civilian/survivor/miner
-	role_comm_title = "KMCC-M"
+	role_comm_title = list(PAY_SHORT_CIV = JOB_PLAYTIME_TIER_0)
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	access = list(ACCESS_CIVILIAN_PUBLIC, ACCESS_CIVILIAN_ENGINEERING, ACCESS_CIVILIAN_LOGISTICS)
 

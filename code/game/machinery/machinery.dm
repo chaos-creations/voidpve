@@ -108,10 +108,7 @@ Class Procs:
 	var/machine_processing = 0 // whether the machine is busy and requires process() calls in scheduler. // Please replace this by DF_ISPROCESSING in another refactor --fira
 	throwpass = 1
 	projectile_coverage = PROJECTILE_COVERAGE_MEDIUM
-	/// Reverse lookup for a breaker_switch that if specified is controlling us
-	var/obj/structure/machinery/colony_floodlight_switch/breaker_switch
 	var/power_machine = FALSE //Whether the machine should process on power, or normal processor
-	var/is_on = TRUE
 
 /obj/structure/machinery/vv_get_dropdown()
 	. = ..()
@@ -143,9 +140,6 @@ Class Procs:
 	var/area/A = get_area(src)
 	if(A)
 		A.remove_machine(src) //takes care of removing machine from power usage
-	if(breaker_switch)
-		breaker_switch.machinery_list -= src
-		breaker_switch = null
 	. = ..()
 
 /obj/structure/machinery/initialize_pass_flags(datum/pass_flags_container/PF)

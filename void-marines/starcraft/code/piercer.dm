@@ -35,3 +35,9 @@
 	shuttleId = DROPSHIP_PIERCER
 	is_remote = TRUE
 	needs_power = TRUE
+
+/obj/docking_port/stationary/marine_dropship/hyperion_hangar
+	name = "Hangar Bay"
+	id = HYPERION_HANGAR
+	auto_open = TRUE
+	roundstart_template = /datum/map_template/shuttle/piercer

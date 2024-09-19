@@ -130,6 +130,7 @@
 #define ALMAYER_DROPSHIP_LZ2 "almayer-hangar-lz2"
 
 #define GOLDEN_ARROW_LZ "golden arrow lz"
+#define HYPERION_HANGAR "hyperion hangar"
 
 #define DROPSHIP_FLYBY_ID "special_flight"
 #define DROPSHIP_LZ1 "dropship-lz1"

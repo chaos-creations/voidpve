@@ -55,11 +55,22 @@
 	icon_state = "outerhull_dir"
 	},
 /area/space)
+"bb" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 4;
+	name = "ship-grade camera"
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/space)
 "bd" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/shuttle/escapepod{
 	icon_state = "floor4"
 	},
+/area/space)
+"bi" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/almayer/outer,
 /area/space)
 "bl" = (
 /obj/effect/decal/warning_stripes{
@@ -147,6 +158,16 @@
 	icon_state = "silver"
 	},
 /area/space)
+"cx" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/machinery/light{
+	dir = 1;
+	tag = "icon-tube1 (NORTH)"
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
 "cO" = (
 /obj/structure/ladder{
 	height = -1;
@@ -176,6 +197,12 @@
 	dir = 4
 	},
 /area/space)
+"dt" = (
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	icon_state = "wood"
+	},
+/area/space)
 "dB" = (
 /turf/open/floor/almayer_hull{
 	dir = 9;
@@ -202,10 +229,17 @@
 	icon_state = "green"
 	},
 /area/space)
+"dO" = (
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
 "dT" = (
 /obj/item/reagent_container/food/drinks/cans/beer{
 	pixel_y = 8;
 	pixel_x = 18
+	},
+/obj/item/reagent_container/food/drinks/cans/beer{
+	pixel_y = 17;
+	pixel_x = 3
 	},
 /turf/open/floor/hybrisa/carpet/carpetgreen,
 /area/space)
@@ -236,6 +270,13 @@
 "eg" = (
 /obj/structure/bed/hybrisa/bunkbed3{
 	dir = 4
+	},
+/turf/open/floor/hybrisa/carpet/carpetgreen,
+/area/space)
+"ej" = (
+/obj/item/storage/beer_pack{
+	pixel_y = 14;
+	pixel_x = -12
 	},
 /turf/open/floor/hybrisa/carpet/carpetgreen,
 /area/space)
@@ -319,6 +360,22 @@
 	icon_state = "orangefull"
 	},
 /area/space)
+"fA" = (
+/obj/structure/largecrate{
+	pixel_y = 11;
+	layer = 3.2;
+	pixel_x = 4
+	},
+/obj/item/weapon/twohanded/folded_metal_chair{
+	layer = 3.5;
+	pixel_y = 29;
+	pixel_x = 5
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 4
+	},
+/area/space)
 "fC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light,
@@ -351,9 +408,31 @@
 	icon_state = "test_floor6"
 	},
 /area/space)
+"fV" = (
+/obj/structure/largecrate,
+/obj/structure/largecrate{
+	pixel_y = 18;
+	pixel_x = 5
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 5
+	},
+/area/space)
 "fX" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med{
 	pixel_y = 25
+	},
+/obj/structure/reagent_dispensers/beerkeg/alt_dark{
+	anchored = 1;
+	chemical = null;
+	density = 0;
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/item/reagent_container/food/drinks/cans/beer{
+	pixel_y = 3;
+	pixel_x = 11
 	},
 /turf/open/floor/hybrisa/carpet/carpetgreen,
 /area/space)
@@ -411,6 +490,34 @@
 	icon_state = "orange"
 	},
 /area/space)
+"gC" = (
+/obj/item/storage/belt/gun,
+/obj/item/weapon/gun/pistol/heavy/co/gold{
+	pixel_y = 5
+	},
+/obj/item/ammo_magazine/pistol/heavy/super/highimpact{
+	pixel_x = 1
+	},
+/obj/item/ammo_magazine/pistol/heavy/super/highimpact{
+	pixel_x = 1
+	},
+/obj/item/ammo_magazine/pistol/heavy/super/highimpact{
+	pixel_x = 1
+	},
+/obj/item/ammo_magazine/pistol/heavy/super/highimpact{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/heavy/super/highimpact{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/heavy/super/highimpact{
+	pixel_x = 8
+	},
+/obj/structure/closet/cabinet,
+/turf/open/floor/almayer{
+	icon_state = "wood"
+	},
+/area/space)
 "gF" = (
 /obj/structure/machinery/cryopod{
 	dir = 1;
@@ -431,6 +538,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer{
 	icon_state = "silverfull"
+	},
+/area/space)
+"gS" = (
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	icon_state = "black"
 	},
 /area/space)
 "gX" = (
@@ -481,6 +594,15 @@
 	pixel_x = -5;
 	pixel_y = 32
 	},
+/obj/structure/closet/crate/freezer/cooler{
+	density = 0;
+	pixel_x = 9;
+	pixel_y = 8
+	},
+/obj/item/storage/briefcase{
+	pixel_x = -8;
+	pixel_y = 11
+	},
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/space)
 "hO" = (
@@ -527,6 +649,13 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "orange"
+	},
+/area/space)
+"iG" = (
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	icon_state = "plating2";
+	dir = 8
 	},
 /area/space)
 "iM" = (
@@ -580,6 +709,12 @@
 	icon_state = "orange"
 	},
 /area/space)
+"jh" = (
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 10
+	},
+/area/space)
 "jj" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = -7;
@@ -611,6 +746,10 @@
 /turf/open/floor/almayer{
 	icon_state = "wood"
 	},
+/area/space)
+"jN" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/almayer,
 /area/space)
 "jS" = (
 /obj/structure/surface/table/almayer,
@@ -721,6 +860,29 @@
 	icon_state = "green"
 	},
 /area/space)
+"lI" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/hybrisa/carpet/carpetgreen,
+/area/space)
+"lX" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/recharger{
+	pixel_y = 0;
+	pixel_x = 3
+	},
+/obj/item/device/camera{
+	pixel_y = 9;
+	pixel_x = -1
+	},
+/obj/item/device/camera_film{
+	pixel_y = 3;
+	pixel_x = -13
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/space)
 "ma" = (
 /obj/structure/sign/poster/music{
 	pixel_y = 3;
@@ -729,6 +891,13 @@
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "silver"
+	},
+/area/space)
+"md" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/almayer{
+	icon_state = "blackcorner";
+	dir = 4
 	},
 /area/space)
 "mf" = (
@@ -762,6 +931,12 @@
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
+/area/space)
+"mw" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "my" = (
 /obj/structure/window/framed/almayer/hull,
@@ -826,8 +1001,25 @@
 /turf/closed/wall/almayer/reinforced,
 /area/space)
 "nE" = (
-/obj/structure/machinery/vending/coffee,
-/turf/open/floor/almayer,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/structure/machinery/disposal{
+	pixel_y = 3
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 4
+	},
+/area/space)
+"nL" = (
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 1
+	},
 /area/space)
 "nN" = (
 /obj/effect/decal/cleanable/dirt,
@@ -843,9 +1035,24 @@
 /obj/structure/barricade/handrail/wire,
 /turf/open/floor/almayer,
 /area/space)
+"nU" = (
+/obj/structure/bed/chair/comfy/blue{
+	pixel_y = 4;
+	pixel_x = 3
+	},
+/turf/open/floor/almayer{
+	icon_state = "black"
+	},
+/area/space)
 "oh" = (
 /obj/structure/machinery/cm_vending/gear/synth,
 /turf/open/floor/almayer/aicore/glowing,
+/area/space)
+"oo" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 1
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "oq" = (
 /obj/structure/barricade/handrail/wire{
@@ -883,10 +1090,36 @@
 	icon_state = "orange"
 	},
 /area/space)
+"oP" = (
+/obj/structure/machinery/atm{
+	pixel_y = 26
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 1
+	},
+/area/space)
 "oZ" = (
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "orange"
+	},
+/area/space)
+"pf" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "wood"
+	},
+/area/space)
+"pi" = (
+/obj/structure/prop/hybrisa/misc/picture{
+	pixel_y = 30
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 1
 	},
 /area/space)
 "pq" = (
@@ -1024,6 +1257,24 @@
 	icon_state = "silverfull"
 	},
 /area/space)
+"re" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 1;
+	pixel_y = 15;
+	layer = 3.4
+	},
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10";
+	pixel_y = 1;
+	layer = 3.5
+	},
+/turf/open/floor/almayer{
+	icon_state = "wood"
+	},
+/area/space)
 "rf" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer{
@@ -1034,6 +1285,11 @@
 /turf/open/floor/almayer{
 	dir = 10;
 	icon_state = "orange"
+	},
+/area/space)
+"ro" = (
+/turf/open/floor/almayer{
+	icon_state = "black"
 	},
 /area/space)
 "rv" = (
@@ -1057,6 +1313,13 @@
 /area/space)
 "rK" = (
 /turf/open/floor/almayer/edge/smooth/corner,
+/area/space)
+"rN" = (
+/obj/structure/bed/chair/comfy/teal{
+	dir = 4;
+	pixel_x = -5
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
 /area/space)
 "rO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1086,6 +1349,13 @@
 "st" = (
 /turf/open/floor/almayer/edge/smooth/corner{
 	dir = 8
+	},
+/area/space)
+"su" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 5
 	},
 /area/space)
 "sF" = (
@@ -1179,6 +1449,13 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "silver"
+	},
+/area/space)
+"tR" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/almayer{
+	icon_state = "blackcorner";
+	dir = 8
 	},
 /area/space)
 "tV" = (
@@ -1365,6 +1642,13 @@
 	icon_state = "silvercorner"
 	},
 /area/space)
+"vU" = (
+/obj/item/device/helmet_visor{
+	pixel_y = 4;
+	pixel_x = 4
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/space)
 "vY" = (
 /obj/structure/mirror{
 	pixel_x = -29
@@ -1457,6 +1741,18 @@
 "wK" = (
 /turf/open/floor/almayer_hull,
 /area/space)
+"wL" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 8;
+	pixel_y = 4;
+	pixel_x = -2
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 8
+	},
+/area/space)
 "wN" = (
 /obj/structure/machinery/cryopod{
 	dir = 4;
@@ -1489,6 +1785,12 @@
 	pixel_x = -11
 	},
 /turf/open/floor/almayer/edge/smooth,
+/area/space)
+"xe" = (
+/turf/open/floor/almayer{
+	icon_state = "blackcorner";
+	dir = 8
+	},
 /area/space)
 "xr" = (
 /obj/structure/bed/chair/comfy/teal{
@@ -1524,6 +1826,11 @@
 /area/space)
 "xW" = (
 /obj/structure/bed/chair,
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28
+	},
 /turf/open/floor/almayer{
 	dir = 10;
 	icon_state = "orange"
@@ -1547,6 +1854,13 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/almayer{
 	icon_state = "outerhull"
+	},
+/area/space)
+"yi" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/shuttle{
+	dir = 1;
+	icon_state = "pwall"
 	},
 /area/space)
 "yo" = (
@@ -1586,6 +1900,11 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28
+	},
 /turf/open/floor/almayer{
 	icon_state = "sterile"
 	},
@@ -1601,8 +1920,37 @@
 	icon_state = "green"
 	},
 /area/space)
+"za" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/drinks/drinkingglass{
+	icon_state = "shotglass";
+	pixel_x = 12;
+	pixel_y = 15
+	},
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	pixel_y = 3;
+	pixel_x = -5
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
 "zi" = (
 /turf/closed/wall/almayer/white/hull,
+/area/space)
+"zq" = (
+/turf/open/floor/almayer{
+	icon_state = "blackcorner"
+	},
+/area/space)
+"zs" = (
+/obj/structure/prop/ice_colony/dense/planter_box{
+	dir = 9
+	},
+/obj/structure/flora/bush/ausbushes/reedbush{
+	pixel_y = 11
+	},
+/turf/open/floor/almayer{
+	icon_state = "blackfull"
+	},
 /area/space)
 "zx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1637,8 +1985,17 @@
 	},
 /area/space)
 "zJ" = (
-/obj/structure/machinery/vending/walkman,
-/turf/open/floor/almayer,
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/microwave{
+	pixel_y = 6
+	},
+/obj/item/reagent_container/food/snacks/microwavable/packaged_hdogs{
+	pixel_y = 16
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 6
+	},
 /area/space)
 "zP" = (
 /obj/structure/prop/hybrisa/misc/fake/pipes/pipe5{
@@ -1752,6 +2109,16 @@
 "BC" = (
 /turf/open/floor/almayer_hull{
 	color = "#4C4C4C"
+	},
+/area/space)
+"BR" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/almayer{
+	icon_state = "blackcorner";
+	dir = 1
 	},
 /area/space)
 "BS" = (
@@ -1874,6 +2241,16 @@
 	icon_state = "test_floor4"
 	},
 /area/space)
+"EC" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/weapon/gun/pistol/auto9{
+	pixel_y = 6;
+	pixel_x = 3
+	},
+/turf/open/floor/almayer{
+	icon_state = "blackfull"
+	},
+/area/space)
 "EG" = (
 /obj/structure/surface/rack,
 /obj/item/storage/pouch/tools/tactical/full,
@@ -1905,6 +2282,36 @@
 	icon_state = "siding5"
 	},
 /turf/open/floor/plating,
+/area/space)
+"Fr" = (
+/obj/structure/prop/hybrisa/misc/slotmachine{
+	pixel_y = 5;
+	pixel_x = 6
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 9
+	},
+/area/space)
+"Fw" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
+"FD" = (
+/turf/open/floor/almayer{
+	icon_state = "blackcorner";
+	dir = 4
+	},
+/area/space)
+"FI" = (
+/obj/structure/bed/chair/comfy/black{
+	pixel_y = 4;
+	dir = 4;
+	pixel_x = -8
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "FL" = (
 /turf/open/floor/almayer_hull{
@@ -1970,6 +2377,12 @@
 	icon_state = "test_floor6"
 	},
 /area/space)
+"GI" = (
+/obj/item/spacecash/c10{
+	pixel_y = 9
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/space)
 "GN" = (
 /turf/open/floor/almayer{
 	icon_state = "plating2";
@@ -2000,6 +2413,17 @@
 /obj/structure/machinery/light,
 /turf/open/floor/almayer/edge,
 /area/space)
+"He" = (
+/obj/structure/prop/ice_colony/dense/planter_box{
+	dir = 9
+	},
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	pixel_y = 13
+	},
+/turf/open/floor/almayer{
+	icon_state = "blackfull"
+	},
+/area/space)
 "Hl" = (
 /turf/closed/shuttle{
 	dir = 1;
@@ -2018,6 +2442,27 @@
 	icon_state = "siding6"
 	},
 /turf/open/floor/plating,
+/area/space)
+"HA" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/paper_bin{
+	pixel_y = 8;
+	pixel_x = -5
+	},
+/obj/item/tool/pen/clicky{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_x = 9;
+	pixel_y = 3
+	},
+/obj/item/prop/magazine/book/starshiptroopers{
+	layer = 4.1;
+	pixel_y = 22;
+	pixel_x = 9
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "HC" = (
 /obj/effect/decal/warning_stripes{
@@ -2062,6 +2507,10 @@
 /turf/open/floor/almayer,
 /area/space)
 "HW" = (
+/obj/item/ammo_box/magazine/misc/mre/empty{
+	pixel_y = -2;
+	pixel_x = -5
+	},
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
@@ -2072,6 +2521,23 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "silvercorner"
+	},
+/area/space)
+"Id" = (
+/obj/structure/bed/chair/comfy{
+	dir = 2;
+	pixel_y = 10;
+	pixel_x = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 6
+	},
+/area/space)
+"Ig" = (
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 4
 	},
 /area/space)
 "Ii" = (
@@ -2094,6 +2560,13 @@
 /obj/structure/surface/table/almayer,
 /turf/open/floor/almayer/aicore/glowing,
 /area/space)
+"IH" = (
+/obj/structure/machinery/vending/coffee,
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 9
+	},
+/area/space)
 "IR" = (
 /obj/structure/prop/server_equipment/yutani_server{
 	density = 0;
@@ -2101,7 +2574,24 @@
 	name = "server tower";
 	pixel_y = 16
 	},
+/obj/item/storage/box/ids{
+	pixel_x = -4
+	},
 /turf/open/floor/almayer/aicore/glowing,
+/area/space)
+"IX" = (
+/obj/structure/dartboard{
+	pixel_y = 31
+	},
+/obj/item/attachable/bayonet/upp{
+	anchored = 1;
+	layer = 3.6;
+	pixel_x = -4;
+	pixel_y = 25
+	},
+/turf/open/floor/almayer{
+	icon_state = "wood"
+	},
 /area/space)
 "Jd" = (
 /turf/open/floor/almayer_hull{
@@ -2116,6 +2606,24 @@
 	dir = 1;
 	icon_state = "orange"
 	},
+/area/space)
+"Jm" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28
+	},
+/turf/open/floor/almayer{
+	icon_state = "green"
+	},
+/area/space)
+"Jr" = (
+/obj/structure/largecrate/supply,
+/obj/item/book/manual/orbital_cannon_manual{
+	pixel_y = 16;
+	pixel_x = 1
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
 /area/space)
 "Js" = (
 /obj/effect/decal/warning_stripes{
@@ -2141,6 +2649,16 @@
 	pixel_y = 1
 	},
 /turf/open/floor/almayer,
+/area/space)
+"JE" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/toy/prize/gygax{
+	pixel_y = 13;
+	pixel_x = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "blackfull"
+	},
 /area/space)
 "JH" = (
 /turf/open/floor/almayer{
@@ -2170,6 +2688,16 @@
 	dir = 5;
 	icon_state = "orange"
 	},
+/area/space)
+"Kf" = (
+/obj/structure/bed/hybrisa/bunkbed3{
+	dir = 4
+	},
+/obj/item/trash/kepler{
+	pixel_x = -3;
+	pixel_y = 39
+	},
+/turf/open/floor/hybrisa/carpet/carpetgreen,
 /area/space)
 "Ks" = (
 /obj/structure/stairs/perspective,
@@ -2291,6 +2819,16 @@
 	icon_state = "orange"
 	},
 /area/space)
+"Ma" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4;
+	pixel_y = 7
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 5
+	},
+/area/space)
 "Mj" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NE-out";
@@ -2308,6 +2846,22 @@
 "Mq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk,
+/area/space)
+"Mw" = (
+/obj/structure/platform/kutjevo{
+	dir = 1
+	},
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
+"MA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/open/space/basic,
 /area/space)
 "MF" = (
 /obj/structure/closet/secure_closet/marine_personal{
@@ -2368,11 +2922,28 @@
 	icon_state = "silvercorner"
 	},
 /area/space)
+"Nm" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
 "Nn" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food,
 /turf/open/floor/almayer{
 	dir = 10;
 	icon_state = "cargo"
+	},
+/area/space)
+"No" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 1
 	},
 /area/space)
 "Nt" = (
@@ -2488,7 +3059,18 @@
 	},
 /area/space)
 "OR" = (
-/obj/structure/machinery/camera/autoname/golden_arrow,
+/obj/structure/surface/rack,
+/obj/item/reagent_container/food/drinks/golden_cup,
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/space)
+"OY" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/computer/ares_console{
+	desc = "A console built to interface with APOLLO, allowing for 1:1 communication.";
+	dir = 1;
+	name = "Ship Interface";
+	pixel_y = -2
+	},
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/space)
 "OZ" = (
@@ -2514,6 +3096,12 @@
 	icon_state = "W"
 	},
 /turf/open/floor/almayer,
+/area/space)
+"PE" = (
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 6
+	},
 /area/space)
 "PG" = (
 /obj/structure/sign/safety/rad_haz{
@@ -2577,6 +3165,15 @@
 	dir = 9
 	},
 /area/space)
+"QP" = (
+/obj/structure/platform/kutjevo{
+	dir = 2
+	},
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
 "Re" = (
 /obj/structure/machinery/door/airlock/almayer/generic/glass{
 	dir = 4;
@@ -2603,6 +3200,35 @@
 	},
 /turf/open/floor/almayer/edge/smooth,
 /area/space)
+"Ro" = (
+/obj/structure/barricade/handrail/hybrisa/handrail{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 9
+	},
+/area/space)
+"Rq" = (
+/obj/structure/barricade/handrail/hybrisa/handrail{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 10
+	},
+/area/space)
+"RU" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/reagent_container/food/drinks/coffeecup,
+/obj/item/storage/box/uscm_mre{
+	pixel_y = 13;
+	pixel_x = 6
+	},
+/turf/open/floor/almayer{
+	icon_state = "blackfull"
+	},
+/area/space)
 "RV" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/shuttle/escapepod{
@@ -2623,6 +3249,24 @@
 /turf/open/floor/almayer_hull{
 	dir = 4;
 	icon_state = "outerhull_dir"
+	},
+/area/space)
+"So" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/kutjevo,
+/obj/structure/sign/poster/propaganda{
+	pixel_x = -1;
+	pixel_y = 32
+	},
+/obj/item/weapon/dart/green{
+	pixel_x = 7;
+	pixel_y = 32;
+	layer = 3.6
+	},
+/turf/open/floor/almayer{
+	icon_state = "wood"
 	},
 /area/space)
 "Su" = (
@@ -2661,6 +3305,23 @@
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "silvercorner"
+	},
+/area/space)
+"ST" = (
+/obj/structure/filingcabinet{
+	pixel_x = -8;
+	pixel_y = 20
+	},
+/obj/structure/filingcabinet{
+	pixel_x = 9;
+	pixel_y = 20
+	},
+/obj/structure/sign/poster/clf{
+	pixel_x = -28;
+	pixel_y = 7
+	},
+/turf/open/floor/almayer{
+	icon_state = "wood"
 	},
 /area/space)
 "Td" = (
@@ -2713,6 +3374,13 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "tcomms"
+	},
+/area/space)
+"Tu" = (
+/obj/structure/bed,
+/obj/item/bedsheet/rd,
+/turf/open/floor/almayer{
+	icon_state = "wood"
 	},
 /area/space)
 "Tw" = (
@@ -2786,6 +3454,19 @@
 "Ul" = (
 /turf/closed/wall/almayer/outer,
 /area/space)
+"Uw" = (
+/obj/structure/platform_decoration/kutjevo,
+/turf/open/floor/almayer{
+	icon_state = "wood"
+	},
+/area/space)
+"Uz" = (
+/obj/item/trash/barcardine,
+/turf/open/floor/almayer{
+	icon_state = "blackcorner";
+	dir = 1
+	},
+/area/space)
 "UA" = (
 /obj/structure/platform{
 	dir = 4
@@ -2845,6 +3526,17 @@
 /turf/open/floor/almayer{
 	dir = 10;
 	icon_state = "cargo"
+	},
+/area/space)
+"Ve" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28
+	},
+/turf/open/floor/almayer{
+	icon_state = "plating2";
+	dir = 9
 	},
 /area/space)
 "Vg" = (
@@ -2922,6 +3614,20 @@
 	icon_state = "green"
 	},
 /area/space)
+"Wi" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/reagent_container/food/drinks/cans/dr_gibb{
+	pixel_y = 4;
+	pixel_x = 8
+	},
+/obj/item/storage/box/lights/tubes{
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "blackfull"
+	},
+/area/space)
 "Wk" = (
 /obj/effect/landmark/late_join,
 /obj/effect/landmark/late_join/alpha,
@@ -2944,6 +3650,27 @@
 "Ws" = (
 /obj/structure/bed/chair,
 /turf/open/floor/plating/plating_catwalk,
+/area/space)
+"Wx" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1;
+	pixel_y = 10;
+	pixel_x = -9
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 1
+	},
+/area/space)
+"WA" = (
+/obj/structure/machinery/light{
+	dir = 1;
+	tag = "icon-tube1 (NORTH)"
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 1
+	},
 /area/space)
 "WH" = (
 /turf/open/floor/almayer{
@@ -2976,6 +3703,26 @@
 	dir = 4
 	},
 /area/space)
+"Xa" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/reagent_container/food/drinks/flask/barflask{
+	pixel_x = -5;
+	pixel_y = -2
+	},
+/obj/item/reagent_container/food/snacks/mre_pack/meal4{
+	pixel_y = 5;
+	pixel_x = 14
+	},
+/obj/item/clothing/glasses/fluff/haveatya{
+	pixel_y = 12;
+	pixel_x = -3;
+	desc = "A neat looking pair of civilian grade night vision goggles.";
+	name = "\improper TV1 night vision goggles"
+	},
+/turf/open/floor/almayer{
+	icon_state = "blackfull"
+	},
+/area/space)
 "Xc" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/almayer{
@@ -2996,6 +3743,17 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "silvercorner"
+	},
+/area/space)
+"Xq" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4;
+	pixel_y = 4;
+	pixel_x = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 4
 	},
 /area/space)
 "Xs" = (
@@ -3054,12 +3812,64 @@
 	},
 /turf/open/floor/almayer/aicore/glowing,
 /area/space)
+"Yd" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/prop/hybrisa/misc/coffeestuff/coffeemachine1{
+	pixel_x = 4;
+	pixel_y = 12
+	},
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_y = -4;
+	pixel_x = 7
+	},
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_y = 0;
+	pixel_x = -7
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
 "Yf" = (
 /obj/effect/decal/siding,
 /turf/open/floor/plating,
 /area/space)
+"Yn" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/reagent_container/food/drinks/flask/canteen{
+	pixel_y = 4;
+	pixel_x = 3
+	},
+/obj/item/paper_bin/uscm{
+	pixel_x = -8;
+	pixel_y = 5
+	},
+/turf/open/floor/almayer{
+	icon_state = "blackfull"
+	},
+/area/space)
+"Ys" = (
+/obj/structure/machinery/vending/walkman,
+/turf/open/floor/almayer{
+	icon_state = "black";
+	dir = 10
+	},
+/area/space)
 "YA" = (
 /turf/open/floor/plating,
+/area/space)
+"YG" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/phone_base/rotary/no_dnd{
+	name = "Hotline Telephone";
+	phone_category = "Command";
+	phone_id = "Squad Leader";
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/obj/item/reagent_container/spray/cleaner{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "YH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3129,6 +3939,12 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor6"
+	},
+/area/space)
+"ZR" = (
+/turf/open/floor/almayer{
+	icon_state = "blackcorner";
+	dir = 1
 	},
 /area/space)
 "ZS" = (
@@ -4894,9 +5710,9 @@ Ul
 Ul
 Ul
 qI
-XB
+nL
 HV
-XB
+ro
 qI
 Ul
 Ul
@@ -4996,9 +5812,9 @@ Hl
 Hl
 Ul
 qI
+oP
 XB
-XB
-XB
+ro
 qI
 Ul
 Hl
@@ -5098,9 +5914,9 @@ Hl
 Ul
 Ul
 qI
+No
 XB
-XB
-XB
+gS
 qI
 Ul
 Ul
@@ -5200,9 +6016,9 @@ Ul
 Ul
 qI
 qI
+nL
 XB
-XB
-XB
+ro
 qI
 qI
 qI
@@ -5301,17 +6117,17 @@ Hl
 Ul
 qI
 qI
+IH
+ZR
 XB
-XB
-XB
-XB
-XB
+xe
+Ys
 qI
 qI
 OR
-kQ
-kQ
-kQ
+bb
+rN
+OY
 qI
 Ul
 Hl
@@ -5402,18 +6218,18 @@ PR
 Hl
 Ul
 qI
-XB
-XB
-XB
-XB
-XB
-XB
-XB
+Fr
+Uz
+zq
+Xq
+FD
+xe
+jh
 qI
 hJ
 kQ
-kQ
-kQ
+vU
+lX
 qI
 Ul
 Hl
@@ -5504,18 +6320,18 @@ PR
 Hl
 Ul
 qI
-XB
-XB
-XB
-XB
-XB
-XB
-XB
+nL
+zq
+Id
+RU
+Ma
+FD
+ro
 ZK
 kQ
+GI
 kQ
-kQ
-kQ
+Jr
 qI
 Ul
 Hl
@@ -5606,17 +6422,17 @@ PR
 Hl
 Ul
 qI
-XB
-XB
-XB
-XB
-XB
-XB
-XB
+WA
+ro
+Xa
+zs
+Wi
+nL
+ro
 qI
 fX
 dT
-ZT
+ej
 ZT
 qI
 Ul
@@ -5708,18 +6524,18 @@ PR
 Hl
 Ul
 qI
-XB
-XB
-XB
-XB
-XB
-XB
-XB
+nL
+nU
+JE
+He
+EC
+Wx
+gS
 qI
 eg
+lI
 ZT
-ZT
-eg
+Kf
 qI
 Ul
 Hl
@@ -5810,13 +6626,13 @@ PR
 Hl
 Ul
 qI
-XB
-XB
-XB
-XB
-XB
-XB
-XB
+pi
+xe
+Rq
+Yn
+Ro
+ZR
+ro
 qI
 qI
 qI
@@ -5908,17 +6724,17 @@ PR
 PR
 "}
 (28,1,1) = {"
-PR
-Hl
-Ul
-qI
-XB
-XB
-XB
-XB
-XB
-XB
-XB
+MA
+yi
+bi
+jN
+su
+md
+tR
+wL
+BR
+zq
+PE
 Cb
 Ks
 HW
@@ -6015,9 +6831,9 @@ Hl
 Ul
 qI
 qI
-XB
-XB
-XB
+fV
+fA
+Ig
 nE
 zJ
 qI
@@ -6127,7 +6943,7 @@ qI
 xY
 xb
 Qv
-TK
+iG
 qI
 Ul
 Hl
@@ -6222,7 +7038,7 @@ qI
 qI
 ee
 jF
-jF
+gC
 qI
 qI
 qI
@@ -6321,11 +7137,11 @@ PR
 Hl
 Ul
 qI
+ST
 jF
 jF
 jF
-jF
-jF
+Tu
 qI
 qI
 MF
@@ -6423,11 +7239,11 @@ PR
 Hl
 Ul
 qI
+IX
+pf
 jF
-jF
-jF
-jF
-jF
+Uw
+dt
 qI
 qI
 qI
@@ -6525,11 +7341,11 @@ Hl
 Hl
 Ul
 qI
-jF
-jF
-jF
-jF
-jF
+So
+Mw
+Nm
+QP
+re
 qI
 Ul
 Ul
@@ -6627,11 +7443,11 @@ Hl
 Ul
 Ul
 Ul
-jF
-jF
-jF
-jF
-jF
+cx
+mw
+dO
+oo
+Fw
 Ul
 Ul
 Hl
@@ -6729,11 +7545,11 @@ BC
 Jd
 wK
 Ul
-jF
-jF
-jF
-jF
-jF
+Yd
+za
+FI
+YG
+HA
 Ul
 wK
 MO
@@ -6843,7 +7659,7 @@ BC
 BC
 Hl
 zi
-Qv
+Ve
 TK
 Bh
 zi
@@ -7273,7 +8089,7 @@ Vc
 qI
 YO
 qI
-Au
+Jm
 dK
 fr
 qI

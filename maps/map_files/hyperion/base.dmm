@@ -1177,6 +1177,12 @@
 	},
 /turf/open/floor/almayer,
 /area/space)
+"ov" = (
+/mob/living/simple_animal/moth/fluff,
+/turf/open/floor/almayer{
+	icon_state = "wood"
+	},
+/area/space)
 "ow" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -7747,7 +7753,7 @@ Ul
 qI
 IX
 pf
-jF
+ov
 Uw
 dt
 qI

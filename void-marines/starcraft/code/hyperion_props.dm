@@ -18,6 +18,31 @@
 	density = TRUE
 	anchored = TRUE
 
+// kreslo
+
+/obj/structure/bed/chair/comfyhair
+	name = "comfy chair"
+	desc = "A sturdy metal chair with a brace that lowers over your body. Holds you in place during high altitude drops."
+	var/image/chairbar = null
+	icon = 'void-marines/starcraft/icons/hyperion_props.dmi'
+	icon_state = "comfychair"
+	buckling_sound = 'sound/effects/metal_close.ogg'
+
+/obj/structure/bed/chair/comfyhair/comfychair_armrest
+	icon_state = "comfychair_armrest"
+
+/obj/structure/bed/chair/comfyhair/Initialize()
+	. = ..()
+	chairbar = image("void-marines/starcraft/icons/hyperion_props.dmi", "comfychair_armrest")
+	chairbar.layer = ABOVE_MOB_LAYER
+
+/obj/structure/bed/chair/comfyhair/afterbuckle()
+	. = ..()
+	if(buckled_mob)
+		overlays += chairbar
+	else
+		overlays -= chairbar
+
 // MOTH
 
 /mob/living/simple_animal/moth

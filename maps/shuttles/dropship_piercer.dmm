@@ -212,15 +212,6 @@
 	icon_state = "test_floor4"
 	},
 /area/shuttle/piercer)
-"wU" = (
-/obj/item/storage/backpack/rmc/light{
-	pixel_y = 16;
-	pixel_x = -4
-	},
-/turf/open/shuttle/dropship{
-	icon_state = "rasputin3"
-	},
-/area/shuttle/piercer)
 "xV" = (
 /obj/structure/prop/almayer/computers/sensor_computer1{
 	density = 0;
@@ -280,24 +271,9 @@
 /area/shuttle/piercer)
 "zW" = (
 /obj/structure/surface/table/reinforced/black,
-/obj/item/reagent_container/food/drinks/coffeecup/uscm{
-	desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty.";
-	name = "TWE coffee mug";
-	pixel_x = 7;
-	pixel_y = 12
-	},
-/obj/item/reagent_container/food/drinks/coffeecup/uscm{
-	desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty.";
-	name = "TWE coffee mug";
-	pixel_x = -9;
-	pixel_y = -1
-	},
 /obj/item/storage/fancy/cigar{
-	pixel_x = 8
-	},
-/obj/item/clothing/head/beret/royal_marine{
-	pixel_x = -5;
-	pixel_y = 6
+	pixel_x = 4;
+	pixel_y = 8
 	},
 /obj/docking_port/mobile/marine_dropship/piercer{
 	layer = 5
@@ -307,10 +283,6 @@
 	},
 /area/shuttle/piercer)
 "Ai" = (
-/obj/item/storage/box/packet/rmc/he{
-	pixel_y = 7;
-	pixel_x = 5
-	},
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin3"
 	},
@@ -549,7 +521,7 @@ bW
 YV
 tM
 vc
-wU
+Ai
 Ld
 oU
 Al

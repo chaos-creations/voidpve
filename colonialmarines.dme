@@ -2537,6 +2537,7 @@
 #include "void-marines\code\playable_factions\shuttles.dm"
 #include "void-marines\code\playable_factions\stuff.dm"
 #include "void-marines\code\playable_factions\faction_paygrades\freelancer.dm"
+#include "void-marines\starcraft\code\armor.dm"
 #include "void-marines\starcraft\code\hyperion.dm"
 #include "void-marines\starcraft\code\hyperion_props.dm"
 #include "void-marines\starcraft\code\piercer.dm"

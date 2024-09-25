@@ -270,14 +270,28 @@
 	},
 /area/shuttle/piercer)
 "zW" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/storage/fancy/cigar{
-	pixel_x = 4;
-	pixel_y = 8
-	},
 /obj/docking_port/mobile/marine_dropship/piercer{
 	layer = 5
 	},
+/obj/item/rappel_harness/extract{
+	shuttle_id = "dropship_cyclone"
+	},
+/obj/item/rappel_harness/extract{
+	shuttle_id = "dropship_cyclone"
+	},
+/obj/item/rappel_harness/extract{
+	shuttle_id = "dropship_cyclone"
+	},
+/obj/item/rappel_harness/extract{
+	shuttle_id = "dropship_cyclone"
+	},
+/obj/item/rappel_harness/extract{
+	shuttle_id = "dropship_cyclone"
+	},
+/obj/item/rappel_harness/extract{
+	shuttle_id = "dropship_cyclone"
+	},
+/obj/structure/closet/crate/green,
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin15"
 	},

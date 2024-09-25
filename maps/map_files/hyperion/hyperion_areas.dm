@@ -20,6 +20,10 @@
 	name = "\improper Hangar - Armory"
 	icon_state = "hangar"
 
+/area/hyperion/hangar/armory/supplies
+	name = "\improper Hangar - Supplies"
+	icon_state = "hangar"
+
 /area/hyperion/dorms
 	name = "\improper Dorms"
 	icon_state = "gruntrnr"

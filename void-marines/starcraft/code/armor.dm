@@ -10,7 +10,7 @@
 	item_icons = list(
 		WEAR_HEAD = 'void-marines/starcraft/icons/armor.dmi',
 	)
-	item_state_slots = list(WEAR_HEAD = "helmet onmobs")
+	item_state_slots = list(WEAR_HEAD = "trooper_helmet_onmob")
 	flags_armor_protection = BODY_FLAG_HEAD|BODY_FLAG_FACE|BODY_FLAG_EYES
 	armor_laser = CLOTHING_ARMOR_MEDIUM
 	armor_bomb = CLOTHING_ARMOR_MEDIUM
@@ -19,8 +19,8 @@
 	armor_melee = CLOTHING_ARMOR_HIGH
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
-	flags_inventory = COVEREYES|COVERMOUTH|BLOCKSHARPOBJ
-	flags_inv_hide = HIDEEARS|HIDEEYES|HIDEFACE|HIDEMASK|HIDEALLHAIR
+	flags_inventory = BLOCKSHARPOBJ
+	flags_inv_hide = HIDEALLHAIR
 	flags_marine_helmet = NO_FLAGS
 
 // armor
@@ -93,4 +93,3 @@
 	. = ..()
 
 	UnregisterSignal(user, COMSIG_HUMAN_ATTEMPTING_EQUIP)
-

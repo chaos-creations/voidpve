@@ -823,7 +823,7 @@
 	dir = 4
 	},
 /obj/effect/step_trigger/teleporter_vector{
-	vector_x = 21;
+	vector_x = 23;
 	vector_y = 1
 	},
 /turf/open/floor/almayer,
@@ -5159,6 +5159,16 @@
 "Fc" = (
 /turf/open/floor/almayer,
 /area/hyperion/hangar/armory)
+"Fh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/power/apc/almayer{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "red"
+	},
+/area/space)
 "Fi" = (
 /obj/effect/hybrisa/decal/trash{
 	icon_state = "trash_17"
@@ -5669,7 +5679,9 @@
 	},
 /area/hyperion/dorms)
 "HY" = (
-/obj/structure/cargo_container/seegson/left,
+/obj/structure/cargo_container/seegson/left{
+	opacity = 0
+	},
 /turf/open/floor/almayer,
 /area/hyperion/hangar/armory/supplies)
 "HZ" = (
@@ -7182,7 +7194,7 @@
 	dir = 8
 	},
 /obj/effect/step_trigger/teleporter_vector{
-	vector_x = 21;
+	vector_x = 23;
 	vector_y = 1
 	},
 /turf/open/floor/almayer,
@@ -7537,7 +7549,9 @@
 /turf/open/floor/almayer,
 /area/hyperion/canteen)
 "TI" = (
-/obj/structure/cargo_container/seegson/mid,
+/obj/structure/cargo_container/seegson/mid{
+	opacity = 0
+	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
 	layer = 3.3
@@ -7817,7 +7831,9 @@
 /turf/open/floor/plating,
 /area/hyperion/hangar/armory/supplies)
 "Vs" = (
-/obj/structure/cargo_container/seegson/right,
+/obj/structure/cargo_container/seegson/right{
+	opacity = 0
+	},
 /turf/open/floor/almayer,
 /area/hyperion/hangar/armory/supplies)
 "Vx" = (
@@ -15583,7 +15599,7 @@ zo
 fB
 or
 cP
-or
+Fh
 TT
 YO
 Ul

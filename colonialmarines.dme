@@ -2508,6 +2508,7 @@
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
 #include "maps\map_files\golden_arrow_forecon\area.dm"
+#include "maps\map_files\LV426\lv426.dm"
 #include "maps\map_files\LV671_Ark\LV671.dm"
 #include "maps\map_files\USCSS_Tortuga\tortuga_areas.dm"
 #include "void-marines\code\admin_tools.dm"

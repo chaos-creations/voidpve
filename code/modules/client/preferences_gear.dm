@@ -720,31 +720,58 @@ var/global/list/gear_datums_by_name = list()
 
 /datum/gear/weapon/m8_cartridge_bayonet
 	display_name = "M8 Cartridge Bayonet"
-	path = /obj/item/storage/box/co2_knife
+	path = /obj/item/storage/box/loadout/co2_knife
 
 /datum/gear/weapon/clfpistol
-	display_name = "D18 Holdout Pistol"
-	path = /obj/item/storage/box/clf
+	display_name = "Hummingbird Pistol"
+	path = /obj/item/storage/box/loadout/clf
 
-/datum/gear/weapon/upppistol //ww2 war trophy luger
+/datum/gear/weapon/upppistol
 	display_name = "Type 73 Pistol"
-	path = /obj/item/storage/box/upp
-	slot = WEAR_IN_BACK
-	cost = 4
+	path = /obj/item/storage/box/loadout/upp
 
 /datum/gear/weapon/m4a3_custom
-	display_name = "M4A3 Custom Pistol"
-	path = /obj/item/weapon/gun/pistol/m4a3/custom
-	allowed_origins = USCM_ORIGINS
-
-/datum/gear/weapon/m44_custom_revolver
-	display_name = "M44 Custom Revolver"
-	path = /obj/item/weapon/gun/revolver/m44/custom
+	display_name = "Custom M4A3 Pistol"
+	path = /obj/item/storage/box/loadout/M4A3_custom_loadout
 	allowed_origins = USCM_ORIGINS
 
 /datum/gear/weapon/m1911
-	display_name = "M1911 Service Pistol"
-	path = /obj/item/storage/box/M1911_loadout
+	display_name = "M1911 Pistol"
+	path = /obj/item/storage/box/loadout/M1911_loadout
+	allowed_origins = USCM_ORIGINS
+
+/datum/gear/weapon/m44
+	display_name = "M44 Revolver"
+	path = /obj/item/storage/box/loadout/M44_loadout
+	allowed_origins = USCM_ORIGINS
+
+/datum/gear/weapon/m44_custom_revolver
+	display_name = "Custom M44 Revolver"
+	path = /obj/item/storage/box/loadout/M44_custom_loadout
+	allowed_origins = USCM_ORIGINS
+
+/datum/gear/weapon/hg45_civilian
+	display_name = "HG 45 'Aguila' Pistol"
+	path = /obj/item/storage/box/loadout/HG45_civilian_loadout
+
+/datum/gear/weapon/hg45_marine
+	display_name = "HG 45 'Marina' Pistol"
+	path = /obj/item/storage/box/loadout/HG45_marine_loadout
+	allowed_origins = USCM_ORIGINS
+
+/datum/gear/weapon/hg44
+	display_name = "HG 44 'Automag' Pistol"
+	path = /obj/item/storage/box/loadout/HG45_marine_loadout
+	allowed_origins = USCM_ORIGINS
+
+/datum/gear/weapon/spearhead
+	display_name = "Spearhead Armoury Revolver"
+	path = /obj/item/storage/box/loadout/Spearhead_loadout
+	allowed_origins = USCM_ORIGINS
+
+/datum/gear/weapon/spearhead_custom
+	display_name = "Custom Spearhead Armoury Revolver"
+	path = /obj/item/storage/box/loadout/Spearhead_loadout/custom
 	allowed_origins = USCM_ORIGINS
 
 /datum/gear/weapon/m2100_machete
@@ -908,15 +935,15 @@ var/global/list/gear_datums_by_name = list()
 
 /datum/gear/snack_packaged/burrito
 	display_name = "Packaged burrito"
-	path = /obj/item/reagent_container/food/snacks/packaged_burrito
+	path = /obj/item/reagent_container/food/snacks/microwavable/packaged_burrito
 
 /datum/gear/snack_packaged/cheeseburger
 	display_name = "Packaged cheeseburger"
-	path = /obj/item/reagent_container/food/snacks/packaged_burger
+	path = /obj/item/reagent_container/food/snacks/microwavable/packaged_burger
 
 /datum/gear/snack_packaged/hotdog
 	display_name = "Packaged hotdog"
-	path = /obj/item/reagent_container/food/snacks/packaged_hdogs
+	path = /obj/item/reagent_container/food/snacks/microwavable/packaged_hdogs
 
 /datum/gear/snack_packaged/chips_pepper
 	display_name = "W-Y Pepper Chips"

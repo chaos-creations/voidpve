@@ -234,14 +234,14 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	/obj/item/reagent_container/food/drinks/flask = "helmet_flask",
 	/obj/item/reagent_container/food/drinks/flask/marine = "helmet_flask",
 	/obj/item/reagent_container/food/snacks/eat_bar = "helmet_snack_eat",
-	/obj/item/reagent_container/food/snacks/packaged_burrito = "helmet_snack_burrito",
+	/obj/item/reagent_container/food/snacks/microwavable/packaged_burrito = "helmet_snack_burrito",
 	/obj/item/reagent_container/food/snacks/mushroompizzaslice = "pizza", // Fuck whoever put these under different paths for some REASON
 	/obj/item/reagent_container/food/snacks/vegetablepizzaslice = "pizza",
 	/obj/item/reagent_container/food/snacks/meatpizzaslice = "pizza",
-	/obj/item/reagent_container/food/snacks/packaged_burrito = HELMET_GARB_RELAY_ICON_STATE,
-	/obj/item/reagent_container/food/snacks/packaged_hdogs = HELMET_GARB_RELAY_ICON_STATE,
+	/obj/item/reagent_container/food/snacks/microwavable/packaged_burrito = HELMET_GARB_RELAY_ICON_STATE,
+	/obj/item/reagent_container/food/snacks/microwavable/packaged_hdogs = HELMET_GARB_RELAY_ICON_STATE,
 	/obj/item/reagent_container/food/snacks/wrapped/chunk = "chunkbox",
-	/obj/item/reagent_container/food/snacks/donkpocket = "donkpocket",
+	/obj/item/reagent_container/food/snacks/microwavable/donkpocket = "donkpocket",
 	/obj/item/reagent_container/food/snacks/wrapped/booniebars = "boonie-bars",
 	/obj/item/reagent_container/food/snacks/wrapped/barcardine = "barcardine-bars",
 
@@ -283,6 +283,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	/obj/item/prop/helmetgarb/cartridge = "cartridge",
 	/obj/item/prop/helmetgarb/prescription_bottle = "prescription_bottle",
 	/obj/item/prop/helmetgarb/raincover = "raincover",
+	/obj/item/prop/helmetgarb/camocover = "camocover",
 	/obj/item/prop/helmetgarb/rabbitsfoot = "rabbitsfoot",
 	/obj/item/prop/helmetgarb/rosary = "helmet_rosary", // This one was already in the game for some reason, but never had an object
 	/obj/item/prop/helmetgarb/lucky_feather = "lucky_feather",
@@ -916,8 +917,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	flags_inventory = BLOCKSHARPOBJ
 	flags_inv_hide = HIDEEARS|HIDETOPHAIR
 	flags_marine_helmet = HELMET_GARB_OVERLAY
-	flags_item = MOB_LOCK_ON_EQUIP
-	specialty = "M45 ghillie"
+	specialty = "M10 ghillie"
 
 /obj/item/clothing/head/helmet/marine/CO
 	name = "\improper M10 pattern commanding officer helmet"

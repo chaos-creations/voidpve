@@ -49,7 +49,5 @@
 /obj/item/storage/box/kit/crawler/fill_preset_inventory()
 	new /obj/item/clothing/head/helmet/marine/ghillie(src)
 	new /obj/item/clothing/suit/storage/marine/ghillie(src)
-	new /obj/item/clothing/glasses/night/m42_night_goggles/spotter(src)
 	new /obj/item/storage/backpack/marine/smock(src)
-	new /obj/item/device/binoculars/range(src)
 	new /obj/item/pamphlet/trait/crawler(src)

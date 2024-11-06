@@ -92,3 +92,6 @@ endmap
 
 map whiskey_outpost_ru
 endmap
+
+map dust
+endmap

@@ -52,6 +52,9 @@ GLOBAL_LIST_INIT(job_squad_roles, JOB_SQUAD_ROLES_LIST)
 #define JOB_SYNTH_SURVIVOR "Synth Survivor"
 #define JOB_CO_SURVIVOR "CO Survivor"
 
+#define JOB_DELIVERY "Delivery Boy"
+#define JOB_DELIVERY_CORPSMAN "Delivery Corpsman"
+#define JOB_DELIVERY_SOUTO "Delivery Souto"
 #define JOB_RESERVE "Reserve Unit"
 
 #define ANY_SURVIVOR "Any Survivor"

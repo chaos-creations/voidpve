@@ -44,7 +44,7 @@
 
 /datum/equipment_preset/pizza_ert/delivery_souto
 	name = "Delivery Souto"
-	role_comm_title = "Souto"3
+	role_comm_title = "Souto"
 	assignment = JOB_DELIVERY_SOUTO
 	rank = JOB_DELIVERY_SOUTO
 	flags = EQUIPMENT_PRESET_START_OF_ROUND

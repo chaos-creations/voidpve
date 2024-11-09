@@ -2763,6 +2763,15 @@
 /area/golden_arrow{
 	name = "Pizza Station"
 	})
+"nP" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -8;
+	job = "Delivery Corpsman"
+	},
+/turf/open/floor/prison/whitegreenfull/southwest,
+/area/golden_arrow{
+	name = "Pizza Station"
+	})
 "nW" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/handrail/kutjevo{
@@ -6605,6 +6614,16 @@
 /area/golden_arrow{
 	name = "Pizza Station"
 	})
+"Ie" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/cigbutt{
+	pixel_x = -10;
+	pixel_y = -5
+	},
+/turf/open/floor/hybrisa/carpet/carpetgreendeco,
+/area/golden_arrow{
+	name = "Pizza Station"
+	})
 "Il" = (
 /obj/structure/machinery/cryopod{
 	dir = 1
@@ -6657,15 +6676,9 @@
 	name = "Pizza Station"
 	})
 "ID" = (
-/obj/structure/machinery/prop/almayer/CICmap{
-	density = 0;
-	icon_state = "shuttle";
-	layer = 2.97;
-	name = "Tactical Map Display";
-	pixel_y = 0;
-	dir = 4;
-	pixel_x = -18;
-	faction = "PIZZA"
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -8;
+	job = "Delivery Souto"
 	},
 /turf/open/floor/prison/darkred2{
 	dir = 10
@@ -7537,6 +7550,20 @@
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/freezer/cooler{
+	density = 0;
+	pixel_x = 9;
+	pixel_y = 8
+	},
+/obj/item/reagent_container/food/drinks/bottle/beer/craft/partypopper,
+/obj/item/reagent_container/food/drinks/bottle/beer/craft/reaper{
+	pixel_x = -11;
+	pixel_y = 5
+	},
+/obj/item/reagent_container/food/drinks/bottle/beer/craft/ganucci{
+	pixel_x = -6;
+	pixel_y = 18
+	},
 /turf/open/floor/hybrisa/carpet/carpetgreendeco,
 /area/golden_arrow{
 	name = "Pizza Station"
@@ -8890,14 +8917,15 @@
 	name = "Pizza Station"
 	})
 "Wj" = (
-/obj/item/trash/cigbutt{
-	pixel_x = -10;
-	pixel_y = -5
-	},
-/obj/structure/machinery/vending/cigarette/free{
-	pixel_y = 23
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -7;
+	job = "Delivery Boy"
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = 8;
+	job = "Delivery Boy"
+	},
 /turf/open/floor/hybrisa/carpet/carpetgreendeco,
 /area/golden_arrow{
 	name = "Pizza Station"
@@ -9618,19 +9646,13 @@
 	name = "Pizza Station"
 	})
 "ZJ" = (
-/obj/structure/closet/crate/freezer/cooler{
-	density = 0;
-	pixel_x = 9;
-	pixel_y = 8
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -7;
+	job = "Delivery Boy"
 	},
-/obj/item/reagent_container/food/drinks/bottle/beer/craft/ganucci{
-	pixel_x = -6;
-	pixel_y = 18
-	},
-/obj/item/reagent_container/food/drinks/bottle/beer/craft/partypopper,
-/obj/item/reagent_container/food/drinks/bottle/beer/craft/reaper{
-	pixel_x = -11;
-	pixel_y = 5
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = 8;
+	job = "Delivery Boy"
 	},
 /turf/open/floor/hybrisa/carpet/carpetgreendeco,
 /area/golden_arrow{
@@ -11493,7 +11515,7 @@ aX
 NK
 ZJ
 Lk
-ft
+Ie
 ZF
 eQ
 Ra
@@ -12623,7 +12645,7 @@ qr
 OU
 Ep
 Ki
-Kp
+nP
 fB
 tV
 tV
